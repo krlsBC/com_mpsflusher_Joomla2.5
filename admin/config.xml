@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <fieldset
+                name="Configuration"
+                label="COM_MPSFLUSHER_CONFIG_LABEL"
+                description="COM_MPSFLUSHER_CONFIG_DESC"
+        >
+				
+				<field 
+						name="path" 
+						type="text" 
+						default="/var/cache/mod_pagespeed/cache.flush" 
+						label="COM_MPSFLUSHER_CONFIG_PATH_LABEL" 
+						description="COM_MPSFLUSHER_CONFIG_PATH_DESC" 
+						size="100"
+				>
+				</field>
+				
+        </fieldset>
+</config>
